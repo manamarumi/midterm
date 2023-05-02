@@ -1,0 +1,80 @@
+body {
+  background-color: #383434e0;
+  font-family: 'Climate Crisis', cursive;
+  margin: 0;
+}
+
+#search-container {
+  background-color: #b7b0b0;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  padding: 20px;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  width: 70%;
+  margin-right: -5px;
+}
+
+#search-input:focus {
+  outline: none;
+}
+
+button {
+  background-color: #050505;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 0 4px 4px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #222021;
+}
+
+#movies-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+  
+.movie-tile {
+  background-color: #c1d9f0;
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-tile img {
+  margin-bottom: 20px;
+}
+
+.movie-tile h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.movie-tile p {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.movie-tile p:last-child {
+  margin-bottom: 0;
+}
